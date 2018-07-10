@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/list_item_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/categoryHeight"
+    android:orientation="horizontal"
+    android:background="@color/colorUniversal">
+
+        <ImageView
+            android:id="@+id/vocImage"
+            android:layout_width="@dimen/categoryHeight"
+            android:layout_height="@dimen/categoryHeight" />
+
+    <LinearLayout
+        android:id="@+id/word_textview_background"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/categoryHeight"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:background="@color/colorCategoryNumbers"
+        android:layout_toRightOf="@id/vocImage">
+
+            <TextView
+                android:id="@+id/miwok"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:textStyle="bold"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/white"
+                tools:text="Miwok Translation"/>
+
+            <TextView
+                android:id="@+id/english"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/white"
+                tools:text="English Version"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@mipmap/ic_play_button"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1e0a02</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorAppBar">#1e0a02</color>
+    <color name="colorCategoryNumbers">#FD8E09</color>
+    <color name="colorCategoryFamilyMembers">#379237</color>
+    <color name="colorCategoryColors">#8800A0</color>
+    <color name="colorCategoryPhrases">#16AFCA</color>
+
+    <color name="colorUniversal">#FFF7DA</color>
+</resources>

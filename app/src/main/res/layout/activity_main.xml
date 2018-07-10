@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorUniversal"
+    tools:context="com.eemf.miwokapp.MainActivity">
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorAppBar"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/app_name"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="@android:color/white"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/numbers"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/categoryHeight"
+        style="@style/categoryStyle"
+        android:text="Numbers"
+        android:background="@color/colorCategoryNumbers" />
+
+    <TextView
+        android:id="@+id/familyMembers"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/categoryHeight"
+        style="@style/categoryStyle"
+        android:text="Family Members"
+        android:background="@color/colorCategoryFamilyMembers" />
+
+    <TextView
+        android:id="@+id/colors"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/categoryHeight"
+        style="@style/categoryStyle"
+        android:text="Colors"
+        android:background="@color/colorCategoryColors"/>
+
+    <TextView
+        android:id="@+id/phrases"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/categoryHeight"
+        style="@style/categoryStyle"
+        android:text="Phrases"
+        android:background="@color/colorCategoryPhrases"/>
+
+</LinearLayout>
